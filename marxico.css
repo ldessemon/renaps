@@ -2037,12 +2037,7 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
     bottom:100%;
     margin-bottom:1px
 }
-@media (min-width:768px){
-    .navbar-right .dropdown-menu{
-        right:0;
-        left:auto
-    }
-}
+
 .btn-group,.btn-group-vertical{
     position:relative;
     display:inline-block;
@@ -6597,129 +6592,7 @@ a.input-group-addon{
 .input-group-btn:last-child .btn{
     margin-left:6px
 }
-.navbar{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    padding:0;
-    border:0;
-    border-top:1px solid rgba(0,128,255,0.1);
-    border-bottom:1px solid rgba(0,128,255,0.1);
-    border-radius:0;
-    z-index:20
-}
-.navbar .left-space,.navbar .right-space{
-    width:25px;
-    height:38px
-}
-.navbar .nav{
-    float:left;
-    margin:5px 9px;
-    height:38px
-}
-.navbar .nav>li{
-    display:inline-block
-}
-.navbar .nav.pull-right{
-    float:right
-}
-.navbar .nav.pull-right>li>.dropdown-menu{
-    right:0;
-    left:auto
-}
-.navbar .nav.pull-right>li>.dropdown-menu .dropdown-menu{
-    right:100%;
-    left:auto;
-    margin-right:-1px;
-    margin-left:0
-}
-.navbar .btn{
-    height:38px;
-    padding:6px 8px
-}
-.navbar .btn-group>.btn.disabled *,.navbar .btn-group>.btn.blocked *,.navbar .btn-group>.btn[disabled] *{
-    color:rgba(54,77,99,0.3)
-}
-.navbar .button-open-discussion.some{
-    color:#e0b800 !important
-}
-.navbar .button-open-discussion.replied{
-    color:#e74434 !important
-}
-.navbar .file-title-navbar{
-    display:inline-block;
-    vertical-align:middle;
-    padding:1px 15px;
-    font-size:1.5em;
-    line-height:1.45em;
-    font-weight:200;
-    overflow:hidden;
-    white-space:nowrap
-}
-.navbar .file-title-navbar a i{
-    -webkit-transition:all ease-in-out .15s;
-    transition:all ease-in-out .15s
-}
-.navbar .file-title-navbar a .icon-link-ext-alt{
-    color:transparent;
-    position:relative;
-    font-size:12px;
-    top:-12px;
-    right:6px;
-    width:0
-}
-.navbar .file-title-navbar a:hover [class^="icon-provider-"],.navbar .file-title-navbar a:hover [class*=" icon-provider-"]{
-    opacity:.5;
-    -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-    filter:alpha(opacity=50)
-}
-.navbar .file-title-navbar a:hover .icon-link-ext-alt{
-    color:#036
-}
-.navbar .input-file-title-container{
-    display:inline-block;
-    vertical-align:middle
-}
-.navbar .input-file-title-container .input-file-title{
-    width:400px;
-    font-size:16px;
-    height:38px
-}
-.navbar .working-indicator{
-    display:inline-block;
-    vertical-align:middle;
-    overflow:hidden;
-    height:38px;
-    width:60px;
-    padding-top:8px
-}
-.navbar .working-indicator .bar{
-    display:inline-block;
-    width:14px;
-    height:6px;
-    border-radius:1px;
-    margin:0 2px;
-    opacity:.25;
-    -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=25);
-    filter:alpha(opacity=25);
-    background-color:rgba(54,77,99,0.75)
-}
-.navbar .offline-status>div{
-    display:inline-block;
-    vertical-align:middle;
-    height:38px;
-    padding:9px 10px
-}
-.navbar .buttons-dropdown>.nav{
-    margin-left:0;
-    margin-right:0
-}
-.navbar div.dropdown-menu{
-    top:initial;
-    padding:5px;
-    margin:10px
-}
+
 .menu-panel,.document-panel{
     height:100%;
     z-index:30;
@@ -7133,14 +7006,7 @@ a.input-group-addon{
 .layout-vertical .layout-toggler.layout-toggler-preview.open>i:before{
     content:'\e880'
 }
-.layout-toggler.layout-toggler-navbar{
-    line-height:0
-}
-.layout-toggler.layout-toggler-navbar i{
-    font-size:16px;
-    height:12px;
-    overflow:hidden
-}
+
 @font-face{
     font-family:'PT Sans';
     font-style:normal;
@@ -7464,9 +7330,7 @@ div.dropdown-menu h1,div.dropdown-menu h2,div.dropdown-menu h3{
     font-size:1em;
     vertical-align:top
 }
-.file-title-navbar .title-icon-category{
-    font-size:16px
-}
+
 .picker-dialog{
     z-index:1050 !important
 }
@@ -7623,11 +7487,7 @@ div.jGrowl div.jGrowl-notification{
 .viewer .document-panel .search-bar .input-group-btn{
     display:none
 }
-.viewer .navbar .file-title-navbar{
-    cursor:initial;
-    -webkit-box-shadow:none;
-    box-shadow:none
-}
+
 @media print{
     html,body{
         background:transparent !important;
@@ -7683,51 +7543,14 @@ div.jGrowl div.jGrowl-notification{
 .layout-toggler{
     display:none
 }
-.editor-navbar{
-    -webkit-transition:none;
-    transition:none;
-    position:absolute;
-    z-index:10;
-    right:50%;
-    background:none !important;
-    margin-top:6px;
-    margin-right:20px
-}
-.editor-navbar .editor-navbar-bg{
-    width:100%;
-    height:100%;
-    position:absolute;
-    left:0;
-    top:0;
-    opacity:.8;
-    pointer-events:none;
-    border-radius:4px
-}
-.editor-navbar .btn{
-    color:inherit;
-    opacity:.5
-}
-.editor-navbar .btn:hover{
-    opacity:.9
-}
-.editor-navbar .btn:active,.editor-navbar .btn:focus{
-    color:inherit !important
-}
-.editor-navbar .btn-success:hover,.editor-navbar .btn-success:focus,.editor-navbar .btn-success:active,.editor-navbar .btn-success.active,.editor-navbar .open .dropdown-toggle.btn-success{
-    color:inherit !important
-}
+
 .preview-buttons-container .btn{
     color:rgba(102,128,153,0.35)
 }
 .preview-buttons-container .btn:hover,.preview-buttons-container .btn:active,.preview-buttons-container .btn:focus{
     color:#036
 }
-.preview-buttons-container .btn,.editor-navbar-buttons .btn{
-    font-size:16px
-}
-.editor-navbar-buttons>.btn-group{
-    display:inline-block
-}
+
 .wmd-buttons-group{
     display:inline-block
 }
@@ -7851,12 +7674,7 @@ div.jGrowl div.jGrowl-notification{
 .full-editor-btn .icon-resize-small-1{
     display:inline-block
 }
-#app_wrap.no-preview .editor-navbar{
-    -webkit-transition:all ease-in-out .2s;
-    transition:all ease-in-out .2s;
-    right:20px;
-    margin-right:0
-}
+
 .dropdown-menu{
     background-color:#546072;
     border-color:#3e4755
@@ -8191,9 +8009,7 @@ body.zh .atwho-view-ul li[create="1"]:before{
 body.en .atwho-view-ul li[create="1"]:before{
     content:'Create '
 }
-#app_wrap.readonly .editor-navbar-buttons,#app_wrap.readonly .save-file{
-    display:none
-}
+
 #app_wrap.readonly .file-status-lock{
     display:inline-block
 }
