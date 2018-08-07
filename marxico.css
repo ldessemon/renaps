@@ -1310,19 +1310,8 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
 .fade.in{
     opacity:1
 }
-.collapse{
-    display:none
-}
-.collapse.in{
-    display:block
-}
-.collapsing{
-    position:relative;
-    height:0;
-    overflow:hidden;
-    -webkit-transition:height .35s ease;
-    transition:height .35s ease
-}
+
+
 @font-face{
     font-family:'Glyphicons Halflings';
     src:url('../fonts/glyphicons-halflings-regular.eot');
@@ -1819,12 +1808,7 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
 .glyphicon-expand:before{
     content:"\e158"
 }
-.glyphicon-collapse-down:before{
-    content:"\e159"
-}
-.glyphicon-collapse-up:before{
-    content:"\e160"
-}
+
 .glyphicon-log-in:before{
     content:"\e161"
 }
@@ -6425,9 +6409,7 @@ body{
 .dropdown-menu>.disabled>a:hover,.dropdown-menu>.disabled>a:focus{
     border-color:transparent
 }
-.collapsed>.icon-up-dir:before{
-    content:'\e94d'
-}
+
 .modal.fade .modal-dialog{
     -webkit-transform:translate(0, 0);
     -ms-transform:translate(0, 0);
@@ -8081,12 +8063,7 @@ a.list-group-item:hover,a.list-group-item:focus{
 .folder-wrapper.active .icon-folder-empty{
     display:none
 }
-.folder-wrapper.active a.collapsed .icon-folder-open-empty{
-    display:none
-}
-.folder-wrapper.active a.collapsed .icon-folder-empty{
-    display:inline-block
-}
+
 .folder-wrapper .file-notebook{
     display:none !important
 }
